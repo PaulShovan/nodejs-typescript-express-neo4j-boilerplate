@@ -1,0 +1,20 @@
+{
+  "name": "neo4j-boilerplate",
+  "version": "0.0.1",
+  "description": "Minimal boilerplate for neo4j db application",
+  "main": "dist/app.js",
+  "author": "Shovan",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "neo4j-driver": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "typescript": "^3.7.4"
+  }
+}
